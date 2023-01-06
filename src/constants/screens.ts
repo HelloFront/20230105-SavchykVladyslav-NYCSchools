@@ -1,0 +1,6 @@
+enum SCREENS {
+  SCHOOLS = 'SCHOOLS',
+  SCHOOL_DETAILS = 'SCHOOL_DETAILS',
+}
+
+export default SCREENS;
