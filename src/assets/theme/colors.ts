@@ -6,4 +6,5 @@ export const ThemeColors = {
   backgroundBlue: '#F7FAFF',
   darkBlue: '#283A70',
   bayouxBlue: '#4D5A82',
+  botticelli: '#D9E3EF',
 };

@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { Text, View } from 'react-native';
+import { ScrollView, Text, View } from 'react-native';
 import { useRoute, RouteProp } from '@react-navigation/native';
 
 import { RootStackParamsList } from '~types';
@@ -22,7 +22,7 @@ const SchoolDetailsView = () => {
   );
 
   return (
-    <View style={styles.schoolDetailsContainer}>
+    <ScrollView style={styles.schoolDetailsContainer}>
       <Text>School name:</Text>
       <Text style={styles.schoolDetailsTitleName}>
         {selectedSchool?.school_name}
@@ -49,7 +49,7 @@ const SchoolDetailsView = () => {
           <Text style={styles.schoolDetailsScoreItemText}>{reading}</Text>
         </View>
       </View>
-    </View>
+    </ScrollView>
   );
 };
 

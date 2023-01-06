@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
   schoolDetailsScoreItem: {
     marginVertical: ThemeLayouts.margin.xs,
     paddingHorizontal: ThemeLayouts.padding.l,
-    paddingVertical: ThemeLayouts.padding.s,
+    paddingVertical: ThemeLayouts.padding.l,
     borderWidth: ThemeLayouts.borderWidth.default,
     borderRadius: ThemeLayouts.borderRadius.default,
     flexDirection: 'row',
